@@ -64,8 +64,13 @@ body {
   letter-spacing: -0.56px;
   text-transform: capitalize;
 }
+
+.footer-list-item:hover,
+.footer-list-item:focus {
+  color: #a1c487;
+}
 .social-icon {
-  fill: #141414;
+  fill: currentColor;
 }
 .footer-social {
   display: flex;
@@ -87,5 +92,13 @@ body {
   padding: 8px;
   align-items: center;
   border-radius: 10px;
-  border: 1px solid #141414;
+  border: 1px solid;
+}
+.footer-social-link {
+  color: #141414;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  color: #a1c487;
+  fill: #a1c487;
 }
