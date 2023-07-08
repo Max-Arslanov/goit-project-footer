@@ -145,3 +145,12 @@ address {
   margin-top: 0;
   margin-bottom: 0;
 }
+@media screen and (min-width: 375px) {
+  .footer-content {
+    max-width: 375px;
+  }
+  .broccoli {
+    width: 335px;
+    height: 172px;
+  }
+}
