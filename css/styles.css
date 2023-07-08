@@ -5,6 +5,9 @@ body {
   text-decoration: none;
   cursor: pointer;
 }
+.list {
+  list-style-type: none;
+}
 .footer-content {
   background-color: #eaf7e5;
   padding: 80px 20px;
@@ -41,14 +44,13 @@ body {
   max-width: 241px;
 }
 .footer-list {
-  list-style-type: none;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
   max-width: 241px;
@@ -61,4 +63,29 @@ body {
   line-height: 1.29;
   letter-spacing: -0.56px;
   text-transform: capitalize;
+}
+.social-icon {
+  fill: #141414;
+}
+.footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 168px;
+}
+.footer-social-item {
+  border-color: #141414;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  padding: 8px;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid #141414;
 }
