@@ -1,0 +1,28 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+.footer-content {
+  background-color: #eaf7e5;
+  padding: 80px 20px;
+  display: block;
+}
+.broccoli {
+  width: 89%;
+  margin-bottom: 20px;
+}
+.footer-logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.footer-logo {
+  text-decoration: none;
+  color: #141414;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29;
+  letter-spacing: -0.56px;
+  text-transform: uppercase;
+}
