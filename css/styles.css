@@ -8,8 +8,16 @@ body {
 .list {
   list-style-type: none;
 }
-.footer-content {
+footer {
   background-color: #eaf7e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer-content {
+  /* background-color: #eaf7e5; */
   padding: 80px 20px;
   display: block;
 }
