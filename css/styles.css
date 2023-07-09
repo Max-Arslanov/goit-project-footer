@@ -170,7 +170,7 @@ address {
     display: flex;
     max-width: 768px;
     padding: 80px 32px;
-    gap: 150px;
+    gap: 170px;
   }
   .broccoli {
     width: 349px;
@@ -213,5 +213,9 @@ address {
   .footer-social-item {
     width: 44px;
     height: 44px;
+  }
+  .social-icon {
+    width: 28px;
+    height: 28px;
   }
 }
